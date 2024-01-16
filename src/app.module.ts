@@ -35,5 +35,7 @@ import { HandlebarsAdapter } from '@nestjs-modules/mailer/dist/adapters/handleba
   ],
   controllers: [AppController],
   providers: [AppService, QueueReceiverService, EmailService],
-})
+});
+
+console.log(__dirname); 
 export class AppModule {}
